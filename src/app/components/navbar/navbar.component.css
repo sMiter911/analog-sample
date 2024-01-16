@@ -1,0 +1,10 @@
+/* Add this to your CSS */
+.navbar-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.9s ease-out; /* Adjust the duration and timing function as needed */
+}
+
+.navbar-menu.active {
+  max-height: 500px; /* Set a reasonable max height for your menu */
+}
